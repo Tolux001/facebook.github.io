@@ -1,0 +1,133 @@
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;}
+#submit { width: 100%;
+  padding-left: 2px;
+  padding-right: 2px;}
+      .one {background-color: lightyellow;
+      height: auto;
+     width: 100% ;
+      color: blue;
+      font-family: Arial;
+      font-weight: normal;}
+      .two {color: dodgerblue;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 5px;
+     text-align: center;
+     margin: none;
+     letter-spacing: -2px;}
+    .ip1 { background-color: #9992;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #fff;
+      border-radius: 5px;
+      font-weight: medium;
+      font-family: Georgia;}
+     .ip1:hover { background-color: lightblue;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    transition: 0.1s linear;
+    border: 1px solid ;
+      border-radius: 5px;
+      font-weight: medium;
+      font-family: Georgia;}
+         .ip1:focus { background-color: #9999;
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    transition: 0.2s ease;
+    border: none;
+   border-bottom: 2px solid black;
+      font-weight: medium;
+      outline: none;
+      font-family: 'Times New Roman';}
+    .ip2 {background-color: #9992;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #fff;
+      border-radius: 5px;
+      font-weight: medium;
+      font-family: Georgia;}
+      .ip2:hover { background-color: lightblue;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    transition: 0.1s linear;
+    border: 1px solid;
+    outline: none;
+      border-radius: 5px;
+      font-weight: medium;
+      font-family: Georgia;} 
+      .ip2:focus {background-color: #9999;
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    transition: 0.2s ease;
+    border: none;
+    border-bottom: 2px solid black;
+      font-weight: medium;
+      font-family: 'Times New Roman';}
+      .margin { padding-top: 8px;
+        padding-bottom: 8px;}
+      .four {text-align: center;
+     padding-bottom:10px;}
+   .four input{ width: 60%;
+   height: auto;
+   border: none;
+   padding: 5px;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+   font-family: verdana;
+   font-size: 20px;
+   background-color: dodgerblue}
+   .four input:hover{ width: 70%;
+   height: auto;
+   border: 2px solid dodgerblue;
+   padding: 5px;
+   border-radius: 10px;
+   color: dodgerblue;
+   font-weight: bold;
+   font-family: verdana;
+   font-size: 20px;
+   background-color: white}
+ .link {text-decoration: none;
+        font-family: Arial;
+   color: dodgerblue;
+ }
+        .five {text-align: center};
+      .hr1 {float: left;
+        width: 45%;
+      }
+      .hr2 {float: right;
+        width: 45%;}
+        .line { text-align: center!important;
+     justify-content: center;}
+      .b2 {background-color: green;
+      color: white;
+      border: none;
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+        font-family: Arial;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 4px;
+        font-weight: bold;}
+      .six {text-align: center;
+        padding-bottom: 80px;
+      }
+    .float {float: left;
+      font-weight: normal;
+      padding-left: 15px;}
+    .flt {float: right;
+      padding-right: 15px;}
+   .finish {float: left;}
+    a {text-decoration: none;}
+    @media screen and (min-width:900px)
+    { body {display: none;}
+    }
